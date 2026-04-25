@@ -1,21 +1,26 @@
 {
-	"name": "crud-com-node",
-	"version": "1.0.0",
-	"description": "",
-	"homepage": "https://github.com/ossinkichi/Crud-com-Node#readme",
-	"bugs": {
-		"url": "https://github.com/ossinkichi/Crud-com-Node/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ossinkichi/Crud-com-Node.git"
-	},
-	"license": "ISC",
-	"author": "Carlos Junior | OssinKichi",
-	"type": "commonjs",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "node main.js"
-	}
+    "name": "crud-com-node",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/ossinkichi/Crud-com-Node#readme",
+    "bugs": {
+        "url": "https://github.com/ossinkichi/Crud-com-Node/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ossinkichi/Crud-com-Node.git"
+    },
+    "license": "ISC",
+    "author": "Carlos Junior / OssinKichi",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node main.js",
+        "lint:check": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^3.8.3"
+    }
 }
